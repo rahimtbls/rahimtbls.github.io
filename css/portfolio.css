@@ -41,10 +41,10 @@ body
     background-color: var(--bg-black-50);
 }
 
-/*body.stop-scrolling
+body.stop-scrolling
 {
     overflow-y: hidden;
-}*/
+}
 
 *:not(i)
 {
