@@ -68,7 +68,7 @@
 
 })();
 
-/*(() =>{
+(() =>{
     const aboutSection = document.querySelector(".about-section"),
     tabsContainer = document.querySelector(".about-tabs");
 
@@ -87,7 +87,7 @@
 
         }
     })
-})();*/
+})();
 
 function bodyScrollingToggle() {
     document.body.classList.toggle("stop-scrolling");
@@ -253,7 +253,7 @@ function bodyScrollingToggle() {
 
 }) ();
 
-(() =>{
+/*(() =>{
     const sections = document.querySelectorAll(".section");
     sections.forEach((section) =>{
         if(!section.classList.contains("active"))
@@ -261,7 +261,7 @@ function bodyScrollingToggle() {
             section.classList.add("hide");
         }
     })
-})();
+})();*/
 
 window.addEventListener("load", () =>{
     document.querySelector(".preloader").classList.add("fade-out");
