@@ -9,13 +9,13 @@
     
     function showNavMenu(){
         navMenu.classList.add("open");
-        bodyScrollingToggle();
+        //bodyScrollingToggle();
     }
 
     function hideNavMenu(){
         navMenu.classList.remove("open");
         fadeOutEffect();
-        bodyScrollingToggle();
+        //bodyScrollingToggle();
     }
 
     function fadeOutEffect(){
@@ -172,7 +172,7 @@ function bodyScrollingToggle() {
         function popupToggle()
         {
             popup.classList.toggle("open");
-            bodyScrollingToggle();
+            //bodyScrollingToggle();
         }
 
         function popupSlideshow()
