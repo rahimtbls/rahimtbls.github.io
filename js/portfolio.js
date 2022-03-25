@@ -15,7 +15,7 @@
     function hideNavMenu(){
         navMenu.classList.remove("open");
         fadeOutEffect();
-        //bodyScrollingToggle();
+        bodyScrollingToggle();
     }
 
     function fadeOutEffect(){
@@ -68,7 +68,7 @@
 
 })();
 
-(() =>{
+/*(() =>{
     const aboutSection = document.querySelector(".about-section"),
     tabsContainer = document.querySelector(".about-tabs");
 
@@ -87,7 +87,7 @@
 
         }
     })
-})();
+})();*/
 
 function bodyScrollingToggle() {
     document.body.classList.toggle("stop-scrolling");
