@@ -9,7 +9,7 @@
     
     function showNavMenu(){
         navMenu.classList.add("open");
-        //bodyScrollingToggle();
+        bodyScrollingToggle();
     }
 
     function hideNavMenu(){
@@ -172,7 +172,7 @@ function bodyScrollingToggle() {
         function popupToggle()
         {
             popup.classList.toggle("open");
-            //bodyScrollingToggle();
+            bodyScrollingToggle();
         }
 
         function popupSlideshow()
