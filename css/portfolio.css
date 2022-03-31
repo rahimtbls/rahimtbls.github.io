@@ -36,7 +36,6 @@ body
     font-size: 16px;
     line-height: 1.5;
     overflow-x: hidden;
-    overflow-y: hidden;
     /*background-color: #0a192f;*/
     background-color: var(--bg-black-50);
 }
@@ -45,8 +44,6 @@ body.stop-scrolling
 {
     overflow-y: hidden;
 }
-
-
 
 *:not(i)
 {
@@ -741,11 +738,6 @@ overflow-y: hidden;
 .about-section .about-info span
 {
     font-weight: 600;
-}
-
-.about-section .about-info .btn-1
-{
-    margin: 30px 20px 0 0;
 }
 
 .about-section .btn-1

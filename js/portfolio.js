@@ -253,6 +253,15 @@ function bodyScrollingToggle() {
 
 }) ();
 
+/*(() =>{
+    const sections = document.querySelectorAll(".section");
+    sections.forEach((section) =>{
+        if(!section.classList.contains("active"))
+        {
+            section.classList.add("hide");
+        }
+    })
+})();*/
 
 window.addEventListener("load", () =>{
     document.querySelector(".preloader").classList.add("fade-out");
