@@ -59,7 +59,7 @@
 }
 
 .card:hover .card__inner {
-  background-color: #1abc9c;
+  background-color: var(--skin-color);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -103,7 +103,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-transform: uppercase;
   color: #eceef1;
   font-size: 1.5em;
 }
@@ -134,7 +133,7 @@
 }
 
 .card.is-expanded .card__inner {
-  background-color: #1abc9c;
+  background-color: var(--skin-color);
 }
 
 .card.is-expanded .card__inner:after {

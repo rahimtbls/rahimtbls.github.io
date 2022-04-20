@@ -1,7 +1,6 @@
 $light-gray: #eceef1;
 $gray: darken(#eceef1, 30%);
 $slate: darken(#eceef1, 70%);
-$turquoise: #1abc9c;
 
 
 
@@ -58,7 +57,7 @@ $turquoise: #1abc9c;
 
   &:hover {
     .card__inner {
-      background-color: $turquoise;
+      background-color: var(--skin-color);
       transform: scale(1.05);
     }
   }
@@ -98,7 +97,6 @@ $turquoise: #1abc9c;
     justify-content: center;
     align-items: center;
     
-    text-transform: uppercase;
     color: $light-gray;
     font-size: 1.5em;
     
@@ -135,7 +133,7 @@ $turquoise: #1abc9c;
   &.is-expanded {
 
     .card__inner {
-      background-color: $turquoise;
+      background-color: var(--skin-color);
       
       &:after{
         content: "";
