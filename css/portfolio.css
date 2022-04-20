@@ -606,11 +606,11 @@ img
 
 .home-section .home-text p 
 {
-color: var(--text-black-300);
-font-size: 18px;
-text-transform: capitalize;
-margin: 0;
-overflow-y: hidden;
+    color: var(--text-black-300);
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0;
+    overflow-y: hidden;
 }
 
 .home-section .home-text h2
@@ -1571,3 +1571,5 @@ overflow-y: hidden;
        color: var(--skin-color) ;
    }
 
+
+   
